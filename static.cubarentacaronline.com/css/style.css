@@ -1,0 +1,765 @@
+/* work-sans-regular - latin */
+@font-face {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-regular.svg#WorkSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* work-sans-500 - latin */
+@font-face {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-500.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-500.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-500.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-500.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-500.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-500.svg#WorkSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* work-sans-600 - latin */
+@font-face {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-600.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-600.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-600.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-600.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-600.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-600.svg#WorkSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* work-sans-700 - latin */
+@font-face {
+	font-family: 'Work Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-700.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-700.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-700.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-700.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-700.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-700.svg#WorkSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* work-sans-italic - latin */
+@font-face {
+	font-family: 'Work Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-italic.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-italic.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-italic.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-italic.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-italic.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://static.cubarentacaronline.com/fonts/work-sans-v18-latin-italic.svg#WorkSans') format('svg');
+	/* Legacy iOS */
+}
+
+/********** Template CSS **********/
+:root {
+	--primary: #F3BD00;
+	--secondary: #757575;
+	--light: #F3F6F8;
+	--dark: #0C2B4B;
+}
+
+.py-6 {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+.my-6 {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+.back-to-top {
+	position: fixed;
+	display: none;
+	right: 96px;
+	bottom: 30px;
+	z-index: 99;
+}
+
+.contact-whatsapp {
+	position: fixed;
+	display: none;
+	background-color: #25D366;
+	border-color: #25D366;
+	color: #FFFFFF;
+	right: 30px;
+	bottom: 30px;
+	z-index: 99;
+}
+
+.contact-whatsapp:hover,
+.contact-whatsapp:focus {
+	color: #FFFFFF;
+}
+
+.border-warning {
+	border-color: #F3BD00 !important;
+}
+
+.dropdown-menu {
+	z-index: 1030;
+}
+
+.toast {
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.text-dark-grey {
+	color: #3f3f3f !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+	color: #F3BD00;
+	text-decoration: none;
+	background-color: inherit;
+}
+
+.w-65 {
+	width: 65% !important;
+}
+
+.required:after {
+	content: "*";
+	position: relative;
+	font-size: inherit;
+	color: #e02740;
+	padding-left: 0.25rem;
+}
+
+.dashed-bottom {
+	border-bottom-style: dashed !important;
+}
+
+.badge.bg-primary {
+	background-color: #ecf8ff !important;
+	color: #009EF7;
+}
+
+.badge.bg-info {
+	background-color: #f1ebff !important;
+	color: #6a32e4;
+}
+
+.badge.bg-success {
+	background-color: #e0fdee !important;
+	color: #39b470;
+}
+
+.badge.bg-danger {
+	background-color: #fdeff3 !important;
+	color: #eb3865;
+}
+
+.badge.bg-warning {
+	background-color: #fdf5d3 !important;
+	color: #ebb800;
+}
+
+.badge.bg-secondary {
+	background-color: #EFF2F5 !important;
+	color: #181C32;
+}
+
+.badge.bg-dark {
+	background-color: #181C32 !important;
+	color: #EFF2F5;
+}
+
+input.bg-light:-webkit-autofill,
+input.bg-light:-webkit-autofill:hover,
+input.bg-light:-webkit-autofill:focus,
+input.bg-light:-webkit-autofill:active {
+	box-shadow: 0 0 0 30px #F3F6F8 inset !important;
+	border-color: inherit !important;
+	color: #757575 !important;
+}
+
+/*** Spinner ***/
+#spinner {
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity .5s ease-out, visibility 0s linear .5s;
+	z-index: 99999;
+}
+
+#spinner.show {
+	transition: opacity .5s ease-out, visibility 0s linear 0s;
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/*** Button ***/
+.btn {
+	font-weight: 500;
+	transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-outline-primary:hover {
+	color: #FFFFFF;
+}
+
+.btn-square {
+	width: 38px;
+	height: 38px;
+}
+
+.btn-sm-square {
+	width: 32px;
+	height: 32px;
+}
+
+.btn-lg-square {
+	width: 48px;
+	height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: normal;
+}
+
+.btn-outline-secondary {
+	color: #0C2B4B;
+	border-color: #0C2B4B;
+}
+
+.btn-outline-secondary:hover,
+.btn-check:focus+.btn-outline-secondary,
+.btn-outline-secondary:focus,
+.btn-check:active+.btn-outline-secondary:focus,
+.btn-check:checked+.btn-outline-secondary:focus,
+.btn-outline-secondary.active:focus,
+.btn-outline-secondary.dropdown-toggle.show:focus,
+.btn-outline-secondary:active:focus {
+	color: #FFFFFF;
+	border-color: #0C2B4B;
+	background-color: #0C2B4B;
+	box-shadow: none;
+}
+
+
+/*** Navbar ***/
+.navbar.sticky-top {
+	top: -100px;
+	transition: .5s;
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+	height: 80px
+}
+
+.navbar .navbar-nav .nav-link {
+	margin-right: 30px;
+	padding: 25px 0;
+	color: var(--dark);
+	font-weight: 500;
+	text-transform: uppercase;
+	outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+	color: var(--primary);
+}
+
+.navbar .dropdown-toggle::after {
+	border: none;
+	content: "\f107";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+
+@media (max-width: 991.98px) {
+	.navbar .navbar-nav .nav-link {
+		margin-right: 0;
+		padding: 10px 0;
+	}
+
+	.navbar .navbar-nav {
+		border-top: 1px solid #EEEEEE;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {
+		display: block;
+		border: none;
+		margin-top: 0;
+		top: 150%;
+		opacity: 0;
+		visibility: hidden;
+		transition: .5s;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu {
+		top: 100%;
+		visibility: visible;
+		transition: .5s;
+		opacity: 1;
+	}
+}
+
+
+/*** Header ***/
+.carousel-caption {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	width: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	width: 3rem;
+	height: 3rem;
+	background-color: var(--primary);
+	border: 10px solid var(--primary);
+}
+
+.navbar-brand>img {
+	height: 36px;
+}
+
+@media (max-width: 768px) {
+	#header-carousel {
+		background-size: 160%;
+	}
+
+	#header-carousel .carousel-item img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.navbar-brand>img {
+		height: 32px;
+	}
+
+	.dropdown-menu {
+		min-width: auto;
+	}
+
+	.dropdown-item {
+		white-space: normal;
+	}
+}
+
+.page-header {
+	background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../img/carousel-1.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	color: #999999;
+}
+
+
+/*** Facts ***/
+@media (min-width: 991.98px) {
+	.facts {
+		position: relative;
+		margin-top: -75px;
+		z-index: 1;
+	}
+}
+
+
+/*** Courses ***/
+.courses {
+	min-height: 100vh;
+	background: linear-gradient(rgba(255, 255, 255, .75), rgba(255, 255, 255, .75)), url(../img/carousel-1.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.courses-item .courses-overlay {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, .75);
+	overflow: hidden;
+	opacity: 0;
+	transition: .5s;
+	backdrop-filter: saturate(100%) blur(10px);
+	-webkit-backdrop-filter: saturate(100%) blur(10px);
+}
+
+.courses-item:hover .courses-overlay {
+	height: 100%;
+	opacity: 1;
+}
+
+
+/*** Team ***/
+.team-items {
+	margin: -.75rem;
+}
+
+.team-item {
+	padding: .75rem;
+}
+
+.team-item::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #FFFFFF;
+	transition: .5s;
+	z-index: -1;
+}
+
+.team-item:hover::after {
+	height: 100%;
+	background: var(--primary);
+}
+
+.team-item .team-social {
+	position: absolute;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, .75);
+	overflow: hidden;
+	opacity: 0;
+	transition: .5s;
+}
+
+.team-item:hover .team-social {
+	height: 100%;
+	opacity: 1;
+}
+
+
+/*** Testimonial ***/
+.testimonial-carousel .owl-dots {
+	height: 40px;
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+	position: relative;
+	display: inline-block;
+	margin: 0 5px;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border: 2px solid var(--primary);
+	transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+	width: 40px;
+	height: 40px;
+	background: var(--primary);
+}
+
+.testimonial-carousel .owl-item img {
+	width: 150px;
+	height: 150px;
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-link {
+	display: block;
+	margin-bottom: 5px;
+	padding: 0;
+	text-align: left;
+	color: var(--light);
+	font-weight: normal;
+	text-transform: capitalize;
+	transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+	position: relative;
+	content: "\f105";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: var(--light);
+	margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+	color: var(--primary);
+	letter-spacing: 1px;
+	box-shadow: none;
+}
+
+.copyright {
+	background: #092139;
+}
+
+.copyright a {
+	color: var(--primary);
+}
+
+.copyright a:hover {
+	color: var(--light);
+}
+
+
+/*** Custom Date Time Picker Component ***/
+div.datetime-container {
+	background-color: transparent;
+	line-height: 1;
+}
+
+div.datetime-container .buttons-container {
+	max-height: 58px;
+}
+
+div.datetime-container button.date,
+div.datetime-container button.time {
+	position: relative;
+	border: inherit;
+	background-color: inherit;
+	color: #757575;
+	padding-top: 1rem;
+	font-size: 1rem;
+	border-radius: 0;
+	align-items: center;
+	max-height: 58px;
+	min-height: 58px;
+}
+
+.buttons-container.fix-float>button:first-child {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.buttons-container.fix-float>button:last-child {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+div.datetime-container button.date:hover,
+div.datetime-container button.date:focus,
+div.datetime-container button.time:hover,
+div.datetime-container button.time:focus {
+	background-color: inherit;
+	border-color: inherit;
+	color: #757575;
+}
+
+div.datetime-container button span.week-day {
+	font-size: 1rem;
+}
+
+div.datetime-container button span.month-day,
+div.datetime-container button span.hours {
+	font-size: 1.5rem;
+}
+
+div.datetime-container button span.month-year,
+div.datetime-container span.month-year span {
+	font-size: .75rem;
+}
+
+div.datetime-container span.month-year span {
+	top: 0;
+}
+
+div.picker {
+	margin-top: 2px;
+	border-radius: 0;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+}
+
+div.picker table tr:not(:last-child) td,
+div.picker table th {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+div.picker table tr:last-child td {
+	border-bottom: none;
+}
+
+div.picker table td.active,
+div.picker table td.time-selected {
+	background-color: #F3BD00;
+}
+
+div.picker table td.inactive {
+	background-color: #c9c9c9;
+	color: #000000;
+}
+
+.form-floating>.datetime-container~label {
+	opacity: .65;
+	transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+}
+
+/*** Custom Bootstrap Select Component ***/
+.bootstrap-select.form-control {
+	background-color: inherit;
+	color: #757575;
+	height: 58px;
+	padding: 0 !important;
+}
+
+.bootstrap-select.form-control>button {
+	height: 100%;
+	line-height: 2.75;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.form-floating .bootstrap-select.form-control>button {
+	line-height: 3.75;
+}
+
+.bootstrap-select.form-control>button.btn-light,
+.bootstrap-select.form-control>button.btn-check:focus+.btn-light,
+.bootstrap-select.form-control>button.btn-light:focus {
+	color: #757575;
+}
+
+.bootstrap-select.form-control>button.btn-check:focus+.btn-light,
+.bootstrap-select.form-control>button.btn-light:focus {
+	box-shadow: 0 0 0 0.25rem rgb(243 189 0 / 25%);
+}
+
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle,
+.bootstrap-select .dropdown-toggle:focus {
+	outline: none !important;
+	outline-offset: 0;
+}
+
+.bootstrap-select.form-control>.dropdown-menu {
+	border: none;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bootstrap-select .dropdown-menu li.active small {
+	color: inherit !important;
+}
+
+/*** Custom Flat Picker Component ***/
+.flatpickr-calendar:before,
+.flatpickr-calendar:after {
+	display: none;
+}
+
+.flatpickr-calendar {
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flatpickr-calendar,
+.flatpickr-day {
+	border-radius: 0;
+}
+
+.flatpickr-day.selected,
+.flatpickr-day.startRange,
+.flatpickr-day.endRange,
+.flatpickr-day.selected.inRange,
+.flatpickr-day.startRange.inRange,
+.flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus,
+.flatpickr-day.startRange:focus,
+.flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover,
+.flatpickr-day.startRange:hover,
+.flatpickr-day.endRange:hover,
+.flatpickr-day.selected.prevMonthDay,
+.flatpickr-day.startRange.prevMonthDay,
+.flatpickr-day.endRange.prevMonthDay,
+.flatpickr-day.selected.nextMonthDay,
+.flatpickr-day.startRange.nextMonthDay,
+.flatpickr-day.endRange.nextMonthDay {
+	background: #F3BD00;
+	border-color: #F3BD00;
+}
