@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+cubarentacaronline.com	TRUE	/	FALSE	1999999999	csrf_cookie_name	79fa3fb79837e6d769fc5a4237badb90
+cubarentacaronline.com	TRUE	/	FALSE	1999999999	gtag_view_item_list	%5B%7B%22currency%22%3A%22USD%22%2C%22price%22%3A150%2C%22item_id%22%3A%223033A561%22%2C%22item_name%22%3A%22Bestune%20T55%22%2C%22affiliation%22%3A%22Daiquiri%20Tours%22%2C%22item_brand%22%3A%22Bestune%22%2C%22item_category%22%3A%22Van%20Jeep%22%2C%22item_category2%22%3A%22Autom%C3%A1tica%22%2C%22quantity%22%3A1%7D%2C%7B%22currency%22%3A%22USD%22%2C%22price%22%3A221%2C%22item_id%22%3A%22DB90BDF9%22%2C%22item_name%22%3A%22Hyundai%20Santa%20Fe%22%2C%22affiliation%22%3A%22Rex%22%2C%22item_brand%22%3A%22Hyundai%22%2C%22item_category%22%3A%22Van%20Jeep%22%2C%22item_category2%22%3A%22Autom%C3%A1tica%22%2C%22quantity%22%3A1%7D%2C%7B%22currency%22%3A%22USD%22%2C%22price%22%3A274%2C%22item_id%22%3A%22724297F1%22%2C%22item_name%22%3A%22Maxus%20G10%22%2C%22affiliation%22%3A%22Rex%22%2C%22item_brand%22%3A%22Maxus%22%2C%22item_category%22%3A%22Van%20Jeep%22%2C%22item_category2%22%3A%22Autom%C3%A1tica%22%2C%22quantity%22%3A1%7D%5D
+cubarentacaronline.com	TRUE	/	FALSE	1999999999	gtag_view_item	%7B%22currency%22%3A%22USD%22%2C%22value%22%3A274%2C%22affiliation%22%3A%22Rex%22%2C%22item_id%22%3A%22724297F1%22%2C%22item_name%22%3A%22Maxus%20G10%22%2C%22item_brand%22%3A%22Maxus%22%2C%22item_category%22%3A%22Van%20Jeep%22%2C%22item_category2%22%3A%22Autom%C3%A1tica%22%7D
+cubarentacaronline.com	TRUE	/	FALSE	1999999999	ci_session	91ouulmo65nmguj9s20p1bt3ran143q4
+cubarentacaronline.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+cubarentacaronline.com	TRUE	/	FALSE	1999999999	session_cxv	USD
+
